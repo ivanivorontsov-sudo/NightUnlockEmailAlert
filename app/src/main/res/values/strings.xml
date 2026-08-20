@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Night Unlock Alert</string>
+    <string name="notification_channel_id">monitor_channel</string>
+    <string name="notification_title">Мониторинг разблокировки</string>
+    <string name="notification_text">Отслеживание разблокировки с 00:00 до 07:00</string>
+</resources>
