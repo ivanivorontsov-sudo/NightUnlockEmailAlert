@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Приложение отправляет email, если телефон разблокируют с 00:00 до 07:00."
+            android:text="Приложение отправляет email, если телефон разблокируют с 00:00 до 07:00. Мониторинг работает через видимое уведомление Android."
             android:layout_marginBottom="24dp" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -98,8 +98,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="\n⚠️ Обязательно отключите оптимизацию батареи для этого приложения в настройках системы!"
-            android:textColor="#FF5722"
+            android:text="\nℹ️ Приложение не запрашивает доступ к отключению оптимизации батареи и не использует скрытые системные разрешения."
             android:layout_marginTop="16dp" />
 
     </LinearLayout>
