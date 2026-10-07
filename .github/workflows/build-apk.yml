@@ -36,6 +36,8 @@ jobs:
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
+        continue-on-error: true
         with:
           name: NightUnlockEmailAlert-debug
           path: app/build/outputs/apk/debug/*.apk
+          retention-days: 7
