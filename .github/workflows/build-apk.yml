@@ -23,7 +23,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4.0.2
 
       - name: Build Debug APK
         run: |
